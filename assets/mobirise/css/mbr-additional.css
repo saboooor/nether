@@ -812,7 +812,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
 }
 .cid-sezDAZT22k .navbar.opened {
   transition: all 0.3s;
@@ -1060,8 +1060,8 @@ a {
   }
 }
 .cid-sezDB09h6b {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
   background-image: url("../../../assets/images/2020-10-26-17.18.39-2000x1076.png");
 }
 .cid-sezDB09h6b .mbr-section-title {
@@ -1103,7 +1103,7 @@ a {
 }
 .cid-sezMmCLDdz .card-wrapper {
   border-radius: 4px;
-  background-color: #353535;
+  background-color: #232323;
 }
 .cid-sezMmCLDdz .image-wrapper img {
   width: 100%;
@@ -1164,7 +1164,7 @@ a {
 }
 .cid-sezO5vnM8b .card-wrapper {
   border-radius: 4px;
-  background-color: #353535;
+  background-color: #232323;
 }
 .cid-sezO5vnM8b .image-wrapper img {
   width: 100%;
@@ -1304,7 +1304,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
 }
 .cid-sezhrlTfuG .navbar.opened {
   transition: all 0.3s;
@@ -1570,8 +1570,8 @@ a {
   color: #ffffff;
 }
 .cid-sezFwaUphw {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
   background-color: #000000;
 }
 .cid-sezFwaUphw img,
@@ -1724,7 +1724,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
 }
 .cid-sezXUpMqlp .navbar.opened {
   transition: all 0.3s;
