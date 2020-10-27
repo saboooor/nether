@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Nether Depths",
-    "currentPage": "info.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -486,7 +486,7 @@
             },
             ".mbr-section-title": {
               "text-align": "center",
-              "color": "#fafafa"
+              "color": "#e43f3f"
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "center",
@@ -540,16 +540,16 @@
               "padding": "1rem 0"
             },
             ".panel-title-edit": {
-              "color": "#ffffff"
+              "color": "#ff8a8a"
             },
             "H3": {
               "color": "#ffffff"
             },
             "H4": {
-              "color": "#ffffff"
+              "color": "#bbbbbb"
             },
             ".panel-text": {
-              "color": "#bbbbbb"
+              "color": "#ffb18a"
             }
           },
           "_name": "content17",
@@ -592,7 +592,7 @@
               "padding": "1rem 0"
             },
             ".panel-title-edit": {
-              "color": "#ffffff"
+              "color": "#ff8a8a"
             },
             "H3": {
               "color": "#ffffff"
@@ -601,7 +601,7 @@
               "color": "#ffffff"
             },
             ".panel-text": {
-              "color": "#bbbbbb"
+              "color": "#ffb18a"
             }
           },
           "_name": "content17",
@@ -647,10 +647,10 @@
               "color": "#ffffff"
             },
             ".card-title, .iconfont-wrapper": {
-              "color": "#ffffff"
+              "color": "#ff8a8a"
             },
             ".card-text": {
-              "color": "#ffffff"
+              "color": "#ffb18a"
             }
           },
           "_name": "features1",
@@ -695,10 +695,10 @@
               "color": "#ffffff"
             },
             ".card-title, .iconfont-wrapper": {
-              "color": "#ffffff"
+              "color": "#ff8a8a"
             },
             ".card-text": {
-              "color": "#ffffff"
+              "color": "#ffb18a"
             }
           },
           "_name": "features1",
@@ -744,10 +744,10 @@
               "color": "#ffffff"
             },
             ".card-title, .iconfont-wrapper": {
-              "color": "#ffffff"
+              "color": "#ff8a8a"
             },
             ".card-text": {
-              "color": "#ffffff"
+              "color": "#ffb18a"
             }
           },
           "_name": "features1",
@@ -793,10 +793,11 @@
               "color": "#ffffff"
             },
             ".card-title, .iconfont-wrapper": {
-              "color": "#ffffff"
+              "color": "#ff8a8a"
             },
             ".card-text": {
-              "color": "#ffffff"
+              "color": "#ffb18a",
+              "text-align": "center"
             }
           },
           "_name": "features1",
@@ -1244,7 +1245,7 @@
             },
             ".mbr-section-title": {
               "text-align": "center",
-              "color": "#fafafa"
+              "color": "#e43f3f"
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "center",
@@ -1259,7 +1260,7 @@
           },
           "_name": "header5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/2020-10-26-17.18.39-2000x1076.png\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Nether Depths</b><br></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\"><p><span style=\"font-size: 1.2rem;\">Surpass the limits of The Nether</span><br></p></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success-outline\" href=\"index.html\" data-app-placeholder=\"Type Text\">play.netherdepths.com</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/2020-10-26-17.18.39-2000x1076.png\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Nether Depths</b><br></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\"><p><span style=\"font-size: 1.2rem;\"><b>Surpass the limits of The Nether</b></span></p><p><span style=\"font-size: 1.2rem;\">play.netherdepths.com<br></span><br></p></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"info.html\" data-app-placeholder=\"Type Text\">Get Started</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "seziYl6Rzt",
           "_anchor": "header5-1",
           "_protectedParams": [],
