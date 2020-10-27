@@ -597,8 +597,8 @@ a:hover {
   color: #fdf2f2;
 }
 /* Scroll to top button*/
-#scrollToTop a {
-  border-radius: 100px;
+.scrollToTop_wraper {
+  display: none;
 }
 .form-control {
   font-family: 'Jost', sans-serif;
