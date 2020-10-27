@@ -659,7 +659,8 @@
               "color": "#ffffff"
             },
             ".mbr-text": {
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "right"
             },
             ".cost": {
               "color": "#bbbbbb"
