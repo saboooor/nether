@@ -2052,11 +2052,13 @@ a {
   }
 }
 .cid-sezXUq4vnz {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
   background-image: url("../../../assets/images/2020-12-22-10.41.59-2000x1075.png");
 }
 .cid-sezXUq4vnz .mbr-section-title {
   text-align: center;
-  color: #fafafa;
+  color: #e43f3f;
 }
 .cid-sezXUq4vnz .mbr-text,
 .cid-sezXUq4vnz .mbr-section-btn {
@@ -2067,7 +2069,8 @@ a {
   text-align: center;
 }
 .cid-sezXUq4vnz .mbr-section-subtitle {
-  color: #ffffff;
+  color: #bbbbbb;
+  text-align: center;
 }
 .cid-seBbrZ2uCA {
   z-index: 1000;
