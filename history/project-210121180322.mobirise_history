@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Nether Depths",
-    "currentPage": "index.html",
+    "currentPage": "vote.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -47,7 +47,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "uniqCompNum": 54,
-    "versionPublish": "5.2.6",
+    "versionPublish": "5.2.2",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false,
     "cookiesAlert": false,
