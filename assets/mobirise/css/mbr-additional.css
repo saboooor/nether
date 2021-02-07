@@ -4,6 +4,9 @@
 
 
 
+.btn {
+  border-width: 2px;
+}
 body {
   font-family: Jost;
 }
@@ -295,7 +298,7 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #e43f3f;
   color: #e43f3f;
 }
 .btn-primary-outline:hover,
@@ -304,7 +307,7 @@ body {
 .btn-primary-outline.active {
   color: #b31919 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #b31919 !important;
   box-shadow: none!important;
 }
 .btn-primary-outline.disabled,
@@ -316,7 +319,7 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #e43f3f;
   color: #e43f3f;
 }
 .btn-secondary-outline:hover,
@@ -325,7 +328,7 @@ body {
 .btn-secondary-outline.active {
   color: #b31919 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #b31919 !important;
   box-shadow: none!important;
 }
 .btn-secondary-outline.disabled,
@@ -337,7 +340,7 @@ body {
 .btn-info-outline,
 .btn-info-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #e43f3f;
   color: #e43f3f;
 }
 .btn-info-outline:hover,
@@ -346,7 +349,7 @@ body {
 .btn-info-outline.active {
   color: #b31919 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #b31919 !important;
   box-shadow: none!important;
 }
 .btn-info-outline.disabled,
@@ -358,7 +361,7 @@ body {
 .btn-success-outline,
 .btn-success-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #e43f3f;
   color: #e43f3f;
 }
 .btn-success-outline:hover,
@@ -367,7 +370,7 @@ body {
 .btn-success-outline.active {
   color: #b31919 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #b31919 !important;
   box-shadow: none!important;
 }
 .btn-success-outline.disabled,
@@ -379,7 +382,7 @@ body {
 .btn-warning-outline,
 .btn-warning-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #e43f3f;
   color: #e43f3f;
 }
 .btn-warning-outline:hover,
@@ -388,7 +391,7 @@ body {
 .btn-warning-outline.active {
   color: #b31919 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #b31919 !important;
   box-shadow: none!important;
 }
 .btn-warning-outline.disabled,
@@ -400,7 +403,7 @@ body {
 .btn-danger-outline,
 .btn-danger-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #e43f3f;
   color: #e43f3f;
 }
 .btn-danger-outline:hover,
@@ -409,7 +412,7 @@ body {
 .btn-danger-outline.active {
   color: #b31919 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #b31919 !important;
   box-shadow: none!important;
 }
 .btn-danger-outline.disabled,
@@ -421,7 +424,7 @@ body {
 .btn-black-outline,
 .btn-black-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #232323;
   color: #232323;
 }
 .btn-black-outline:hover,
@@ -430,7 +433,7 @@ body {
 .btn-black-outline.active {
   color: #000000 !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #000000 !important;
   box-shadow: none!important;
 }
 .btn-black-outline.disabled,
@@ -442,7 +445,7 @@ body {
 .btn-white-outline,
 .btn-white-outline:active {
   background-color: transparent !important;
-  border-color: transparent;
+  border-color: #fafafa;
   color: #fafafa;
 }
 .btn-white-outline:hover,
@@ -451,7 +454,7 @@ body {
 .btn-white-outline.active {
   color: #cfcfcf !important;
   background-color: transparent!important;
-  border-color: transparent!important;
+  border-color: #cfcfcf !important;
   box-shadow: none!important;
 }
 .btn-white-outline.disabled,
@@ -597,8 +600,8 @@ a:hover {
   color: #fdf2f2;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Quicksand', sans-serif;
@@ -1062,7 +1065,7 @@ a {
 .cid-sezDB09h6b {
   padding-top: 7rem;
   padding-bottom: 4rem;
-  background-image: url("../../../assets/images/2020-12-22-10.41.59-2000x1075.png");
+  background-image: url("../../../assets/images/2020-10-26-23.20.19.png");
 }
 .cid-sezDB09h6b .mbr-section-title {
   text-align: center;
@@ -1632,7 +1635,7 @@ a {
   }
 }
 .cid-seziYl6Rzt {
-  background-image: url("../../../assets/images/2020-12-22-10.41.59-2000x1075.png");
+  background-image: url("../../../assets/images/2020-10-26-23.20.19.png");
 }
 .cid-seziYl6Rzt .mbr-section-title {
   text-align: center;
@@ -2052,7 +2055,7 @@ a {
   }
 }
 .cid-sezXUq4vnz {
-  background-image: url("../../../assets/images/2020-12-22-10.41.59-2000x1075.png");
+  background-image: url("../../../assets/images/2020-10-26-23.20.19.png");
 }
 .cid-sezXUq4vnz .mbr-section-title {
   text-align: center;
@@ -2422,7 +2425,7 @@ a {
 .cid-seBbrZiVh4 {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-image: url("../../../assets/images/2020-12-22-10.43.11-2000x1075.png");
+  background-image: url("../../../assets/images/2020-12-22-10.43.11.png");
 }
 .cid-seBbrZiVh4 .mbr-section-title {
   text-align: center;
@@ -2904,7 +2907,7 @@ a {
 .cid-sla2ZpdDHF {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-image: url("../../../assets/images/2020-12-22-10.41.59-2000x1075.png");
+  background-image: url("../../../assets/images/2020-10-26-23.20.19.png");
 }
 .cid-sla2ZpdDHF .mbr-section-title {
   text-align: center;
@@ -3271,7 +3274,7 @@ a {
   }
 }
 .cid-sngVkWlPoS {
-  background-image: url("../../../assets/images/2020-12-22-10.41.59-2000x1075.png");
+  background-image: url("../../../assets/images/2020-10-26-23.20.19.png");
 }
 .cid-sngVkWlPoS .number-wrap {
   color: #ffb5b5;
@@ -3673,7 +3676,7 @@ a {
   }
 }
 .cid-sngW3jUrOv {
-  background-image: url("../../../assets/images/2020-12-22-10.41.59-2000x1075.png");
+  background-image: url("../../../assets/images/2020-10-26-23.20.19.png");
 }
 .cid-sngW3jUrOv .number-wrap {
   color: #ffb5b5;
