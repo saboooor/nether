@@ -1156,6 +1156,43 @@ a {
 .cid-seB7gWhfSB .panel-text {
   color: #ffb18a;
 }
+.cid-soRbZZVsoo {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #000000;
+}
+.cid-soRbZZVsoo .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.cid-soRbZZVsoo .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cid-soRbZZVsoo .mbr-iconfont {
+  padding-left: 1rem;
+  font-family: 'Moririse2' !important;
+  font-size: 1.4rem !important;
+  color: #e43f3f;
+}
+.cid-soRbZZVsoo .panel-body,
+.cid-soRbZZVsoo .card-header {
+  padding: 1rem 0;
+}
+.cid-soRbZZVsoo .panel-title-edit {
+  color: #ff8a8a;
+  text-align: left;
+}
+.cid-soRbZZVsoo H3 {
+  color: #ffffff;
+}
+.cid-soRbZZVsoo H4 {
+  color: #ffffff;
+}
+.cid-soRbZZVsoo .panel-text {
+  color: #ffb18a;
+}
 .cid-seAT329YHS {
   padding-top: 2rem;
   padding-bottom: 0rem;
