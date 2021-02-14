@@ -50,12 +50,14 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "uniqCompNum": 67,
-    "versionPublish": "5.2.6",
+    "versionPublish": "5.2.8",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "mbrsiteDomain": "wxu08d9eri"
+    "mbrsiteDomain": "wxu08d9eri",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "info.html": {
