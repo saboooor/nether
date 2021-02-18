@@ -1024,3 +1024,22 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+
+#pagetitle {
+  background: linear-gradient(to right, #ff0000, #FFA500, #ffff00, #00ff00, #0000ff, #EE82EE, #0000ff, #00ff00, #ffff00, #FFA500, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 16s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}

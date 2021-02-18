@@ -55,7 +55,9 @@
     "publishChangesOnly": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "mbrsiteDomain": "wxu08d9eri"
+    "mbrsiteDomain": "wxu08d9eri",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "info.html": {
