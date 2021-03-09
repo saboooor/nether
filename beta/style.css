@@ -1,11 +1,7 @@
-html {
-  height:100%;
-}
-
 body {
-    background: linear-gradient(315deg, #7d030b, #fc8803, #7d030b, #fc8803);
-    background-size: 400% 400%;
-    animation: bganim 50s ease infinite;
+  background: linear-gradient(315deg, #7d030b, #fc8803, #7d030b, #fc8803);
+  background-size: 400% 400%;
+  animation: bganim 50s ease infinite;
 }
 
 @keyframes bganim {
@@ -19,3 +15,22 @@ body {
         background-position:0% 0%
     }
 }
+
+.topnav {
+    overflow: hidden;
+    float: right;
+    padding: 20px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    color: gray;
+  }
