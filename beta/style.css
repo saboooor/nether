@@ -1,0 +1,21 @@
+html {
+  height:100%;
+}
+
+body {
+    background: linear-gradient(315deg, #FB4F5A, #FDAD4F, #FB4F5A, #FDAD4F);
+    background-size: 400% 400%;
+    animation: bganim 50s ease infinite;
+}
+
+@keyframes bganim {
+    0% {
+        background-position:0% 0%
+    }
+    50% {
+        background-position:100% 100%
+    }
+    100% {
+        background-position:0% 0%
+    }
+}
