@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="shortcut icon" href="./assets/images/nd-128x128.png" type="image/x-icon">
@@ -7,11 +8,19 @@
   </head>
   <body>
     <img src='./assets/images/text.png' style='height:100px; padding:20px'>
-    <div class="topnav">
+    <div class="topnav" id="navigation">
+      <a href="https://map.netherdepths.com">Dynmap</a>
+      <a href="https://plan.netherdepths.com">Analytics</a>
+      <a href="forms.html">Forms</a>
       <a href="vote.html">Vote</a>
       <a href="ranks.html">Ranks</a>
       <a href="https://netherdepths.tebex.io">Store</a>
       <a href="info.html">Rules & Info</a>
+      <a href="other.html">Other</a>
+      <a href="javascript:void(0);" class="icon" onclick="navExpand()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+    <script src='./assets/script.js'></script>
   </body>
 </html>
