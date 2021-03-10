@@ -61,6 +61,7 @@ body {
   left: 0;
   background-color: rgba(0,0,0, 0.8);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   overflow-y: hidden;
   transition: 0.2s;
 }
@@ -77,9 +78,13 @@ body {
   padding: 8px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.1s;
+}
+
+.overlay a:hover {
+  color: gray;
 }
 
 .overlay .closebtn {
