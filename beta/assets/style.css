@@ -19,19 +19,22 @@ body {
 
 .topnav {
   overflow: hidden;
-  float: right;
   padding: 20px;
 }
   
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
 }
-  
+
+.topnav-left {
+  float: left;
+}
+
 .topnav a:hover {
   color: gray;
 }
