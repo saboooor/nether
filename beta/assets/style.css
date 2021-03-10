@@ -4,6 +4,9 @@ body {
   background-size: 400% 400%;
   animation: bganim 50s ease infinite;
   font-family: Quicksand;
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+
 }
 
 @font-face {
