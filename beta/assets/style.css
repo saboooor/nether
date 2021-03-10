@@ -66,6 +66,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  transition: 0.3s;
 }
 
 .topnav-left {
@@ -73,7 +74,7 @@ body {
 }
 
 .topnav a:hover {
-  color: gray;
+  color: darkgray;
 }
 
 .topnav .icon {
@@ -86,6 +87,7 @@ body {
   }
   .topnav a.icon {
     display: block;
+    transition: 0.3s;
   }
 }
 
@@ -100,7 +102,7 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   overflow-y: hidden;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .overlay-content {
@@ -140,5 +142,6 @@ body {
   }
   .overlay .closebtn {
     font-size: 40px;
+    transition: 0.3s;
   }
 }
