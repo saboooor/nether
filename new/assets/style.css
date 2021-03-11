@@ -90,10 +90,10 @@ body {
 }
 
 @media screen and (max-width: 1450px) {
-  .ndtext {
+  .topnav .ndtext {
     display: none;
   }
-  .nd {
+  .topnav .nd {
     display: block;
   }
 }
@@ -106,15 +106,26 @@ body {
     display: block;
   }
   .topnav .nd {
+    display: none;
+  }
+  .topnav .ndtext {
     display: block;
   }
-
   .dropbtn2 {
     display: none;
   }
   .dropdown-content {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .nd {
+    display: block;
+  }
+  .topnav .ndtext {
+    display: none;
   }
 }
 
