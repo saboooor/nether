@@ -84,16 +84,33 @@ body {
 
 .topnav .icon {
   display: none;
+  transition: 0.3s;
 }
 
-@media screen and (max-width: 1500px) {
+.nd {
+  display: none;
+}
+
+@media screen and (max-width: 1450px) {
+  .ndtext {
+    display: none;
+  }
+  .nd {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1250px) {
   .topnav a {
     display: none;
   }
   .topnav .icon {
     display: block;
-    transition: 0.3s;
   }
+  .topnav .nd {
+    display: block;
+  }
+
   .dropbtn2 {
     display: none;
   }
