@@ -90,6 +90,9 @@ body {
     display: block;
     transition: 0.3s;
   }
+  .dropbtn2 {
+    display: none;
+  }
 }
 
 .overlay {
