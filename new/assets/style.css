@@ -75,11 +75,11 @@ body {
 }
 
 .topnav a:hover {
-  color: darkgray;
+  opacity: 75%;
 }
 
 .dropdown:hover .dropbtn:hover {
-  color: darkgray;
+  opacity: 75%;
 }
 
 .topnav .icon {
@@ -151,7 +151,7 @@ body {
 }
 
 .overlay a:hover {
-  color: darkgray;
+  opacity: 75%;
 }
 
 .overlay .closebtn {
@@ -217,7 +217,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  color: gray;
+  opacity: 75%;
   border-radius: 15px;
 }
 
