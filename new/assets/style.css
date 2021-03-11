@@ -183,7 +183,7 @@ body {
   position: relative;
   min-width: 0px;
   z-index: 1;
-  height: 0;
+  max-height: 0;
   transition: 0.3s;
 }
 
@@ -206,6 +206,6 @@ body {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  height: 147px;
   transition: 0.3s;
+  max-height: 150px;
 }
