@@ -57,14 +57,14 @@ body {
 
 .topnav {
   overflow: hidden;
-  padding: 20px;
+  height: 90px
 }
   
 .topnav a {
   float: right;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 28px 30px;
   text-decoration: none;
   font-size: 20px;
   transition: 0.3s;
@@ -72,9 +72,14 @@ body {
 
 .topnav-left {
   float: left;
+  padding: 14px 20px;
 }
 
-.topnav a:hover .dropdown:hover .dropbtn{
+.topnav a:hover {
+  color: darkgray;
+}
+
+.dropdown:hover .dropbtn:hover {
   color: darkgray;
 }
 
@@ -82,11 +87,11 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1500px) {
   .topnav a {
     display: none;
   }
-  .topnav a.icon {
+  .topnav .icon {
     display: block;
     transition: 0.3s;
   }
@@ -102,9 +107,9 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(0,0,0, 0.8);
   overflow-y: hidden;
   transition: 0.3s;
 }
@@ -114,7 +119,6 @@ body {
   top: 10%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
 }
 
 .overlay a {
@@ -127,13 +131,12 @@ body {
 }
 
 .overlay a:hover {
-  color: gray;
+  color: darkgray;
 }
 
 .overlay .closebtn {
-  position: absolute;
-  top: 25px;
-  right: 25px;
+  text-align: right;
+  padding: 0;
   font-size: 20px;
 }
 
@@ -157,11 +160,12 @@ body {
 
 /* Dropdown button */
 .dropdown .dropbtn {
+  transition: 0.3s;
   font-size: 20px;
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 28px 30px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -171,11 +175,8 @@ body {
   float: none;
   display: none;
   position: relative;
-  background-color: rgba(0,0,0, 0.8);
-  backdrop-filter: blur(10px);
   border-radius: 15px;
   min-width: 0px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
