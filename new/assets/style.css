@@ -178,12 +178,13 @@ body {
   border-radius: 15px;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0,0,0, 0.4);
   float: none;
-  display: none;
   position: relative;
   min-width: 0px;
   z-index: 1;
+  height: 0;
+  transition: 0.3s;
 }
 
 /* Links inside the dropdown */
@@ -205,5 +206,6 @@ body {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+  height: 147px;
+  transition: 0.3s;
 }
