@@ -55,9 +55,45 @@ body {
     }
 }
 
+.middle {
+  padding-top: 250px;
+}
+
+.middle a {
+  display: block;
+  width: max-content;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  opacity: 80%;
+}
+
+.ip {
+  background-color: rgba(0,0,0, 0.4);
+  text-decoration: none;
+  border-radius: 10px;
+  border: solid;
+  border-color: rgba(0,0,0, 0.4);
+  padding: 8px;
+}
+
 .topnav {
   overflow: hidden;
   transition: 0.3s;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
   
 .topnav a {
@@ -96,6 +132,12 @@ body {
   .topnav .nd {
     display: block;
   }
+  .title {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 1250px) {
@@ -126,6 +168,12 @@ body {
   }
   .topnav .ndtext {
     display: none;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 20px;
   }
 }
 
@@ -225,4 +273,6 @@ body {
   transition: 0.3s;
   max-height: 150px;
   padding: 8px;
+  border: solid;
+  border-color: rgba(0,0,0, 0.4);
 }
